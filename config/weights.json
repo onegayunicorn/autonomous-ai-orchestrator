@@ -1,0 +1,10 @@
+{
+  "honesty": 1.0,
+  "acceptance": 1.0,
+  "bloat": 0.0,
+  "terminal_states": {
+    "authentic": 1.0,
+    "in_progress": 0.5,
+    "bloat": 0.0
+  }
+}

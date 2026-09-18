@@ -1,0 +1,32 @@
+# Sovereign Framework v2.6 — Engine Configuration
+version: "2.6"
+mode: dual_active  # Third Eye + Beholder
+
+push_pull:
+  sensitivity: 0.1
+  damping: 0.05
+  clamp: 5.0
+
+coherence:
+  multiplier_enabled: true
+  zero_on_equal: true
+
+genesis:
+  seed: [0, 1]
+  max_n: 64
+
+volition:
+  honesty_weight: 1.0
+  acceptance_weight: 1.0
+  bloat_weight: 0.0
+
+schumann:
+  fundamental_hz: 7.83
+  harmonics: [14.3, 20.8, 27.3, 33.8]
+  phi: 1.6180339887
+  lattice_hz: 432.13
+
+hrv_biofeedback:
+  target_resonance_hz: 0.1   # ~6 breaths/min
+  schumann_lock: true
+  local_only: true
